@@ -1,5 +1,5 @@
 body {
-    background-image: url(/imagens/stacked-peaks-haikei.svg);
+    background-image: url(../imagens/stacked-peaks-haikei.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -24,13 +24,6 @@ body {
 }
 
 #campo{
-
-    /*background-color: rgb(80, 80, 80);
-    ;
-    backdrop-filter: blur( 15.5px );
-    -webkit-backdrop-filter: blur( 13.5px );
-    border-radius: 15px;
-    */
     background: rgba(80, 80, 80, 0.35);
     box-shadow: 0 8px 32px 0 rgba(198, 198, 30, 0.37);
     backdrop-filter: blur( 15.5px );
@@ -45,8 +38,4 @@ body {
     margin: 0 auto;
     margin-top: 180px;
     align-items: center;
-}
-
-#sub-campo{
-
 }
