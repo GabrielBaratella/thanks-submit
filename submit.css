@@ -1,0 +1,52 @@
+body {
+    background-image: url(/imagens/stacked-peaks-haikei.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 100%;
+}
+
+.letra1{
+    margin-top: 10px;
+    color: rgb(189, 189, 184);
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+#letra{
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 18px;
+}
+
+#campo{
+
+    /*background-color: rgb(80, 80, 80);
+    ;
+    backdrop-filter: blur( 15.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 15px;
+    */
+    background: rgba(80, 80, 80, 0.35);
+    box-shadow: 0 8px 32px 0 rgba(198, 198, 30, 0.37);
+    backdrop-filter: blur( 15.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 350px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    position: center;
+    margin: 0 auto;
+    margin-top: 180px;
+    align-items: center;
+}
+
+#sub-campo{
+
+}
